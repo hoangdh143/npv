@@ -6,7 +6,7 @@ import { configureStore, history } from './store/configureStore';
 import './app.global.css';
 
 const store = configureStore();
-
+//Some changes
 render(
   <AppContainer>
     <Root store={store} history={history} />
